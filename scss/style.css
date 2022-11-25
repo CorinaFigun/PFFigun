@@ -30,7 +30,7 @@ nav ul {
 }
 
 .logos {
-  width: 60px;
+  width: 40px;
 }
 
 .bordesTitFotos {
@@ -78,7 +78,7 @@ nav ul {
   row-gap: 75px;
   text-shadow: 1px;
   line-height: 100px;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .fondoDanza {
@@ -95,15 +95,16 @@ nav ul {
 
 .grid {
   -moz-column-gap: 250px;
-       column-gap: 250px;
+  column-gap: 250px;
   row-gap: 25px;
 }
 
 .border {
-  border: 1px solid black;
+  border: 10px solid black;
   font-family: fantasy;
   background-color: bisque;
   text-align: center;
+  padding: 50px;
 }
 
 header {
@@ -143,7 +144,7 @@ section#tiposDanzas {
 
 #fichaTecnica {
   background-color: burlywood;
-  color: darkgreen;
+  color: rgb(20, 49, 20);
   font-size: xx-large;
   height: 70px;
   font-family: fantasy;
@@ -257,7 +258,7 @@ h4 {
 
 .footer {
   align-content: center;
-  line-height: 300%;
+  line-height: 100px;
 }
 
 #parrafoBonito {
@@ -269,9 +270,11 @@ h4 {
 
 @media screen and (max-width: 760px) {
   #parrafoBonito {
+    margin: 10%;
     font-size: small;
   }
 }
+
 #parrafoBonito2 {
   color: coral;
   background-color: rgb(243, 243, 205);
@@ -280,10 +283,32 @@ h4 {
 }
 
 @media screen and (max-width: 760px) {
+
+
+  #fichaTecnica {
+    margin: 10%;
+    background-color: burlywood;
+    color: rgb(86, 181, 86);
+    font-size: xx-large;
+    height: 70px;
+    font-family: fantasy;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    text-justify: center;
+  }
+
+}
+
+@media screen and (max-width: 760px) {
   #parrafoBonito2 {
+    margin: 5%;
     font-size: medium;
   }
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -295,44 +320,55 @@ h4 {
     font-size: 170%;
   }
 }
+
 @media screen and (max-width: 760) {
   h1 {
     font-size: smaller;
   }
 }
+
 @media screen and (max-width: 760px) {
   h2 {
     font-size: medium;
     color: azure;
   }
 }
+
 @media screen and (max-width: 760px) {
   h3 {
+    margin: 10%;
     font-size: 160%;
     color: greenyellow;
     text-align: start;
   }
 }
+
 @media screen and (max-width: 760px) {
   #parrafoBonito {
+    margin: 10%;
     font-size: small;
   }
 }
+
 @media screen and (max-width: 760px) {
   #parrafoBonito2 {
+    margin: 10%;
     font-size: small;
   }
 }
+
 @media screen and (max-width: 760px) {
   .logos {
     width: 45px;
   }
 }
+
 @media screen and (max-width: 760px) {
   #titulosFotos {
     font-size: medium;
   }
 }
+
 @media screen and (max-width: 760px) {
   #bordesNavegador {
     display: flex;
@@ -347,11 +383,14 @@ h4 {
     flex-wrap: nowrap;
   }
 }
+
 @media screen and (max-width: 760px) {
   .miestilo {
     background-color: aquamarine;
+    margin: 10%;
   }
 }
+
 @media screen and (max-width: 760px) {
   #fotosSanPatricio {
     margin: 0;
@@ -363,8 +402,11 @@ h4 {
     justify-items: auto;
   }
 }
+
 .btn {
   background-color: rgba(22, 221, 92, 0.805);
   width: 180px;
   height: 60px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
