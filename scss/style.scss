@@ -1,0 +1,29 @@
+@import "utilities/variables";
+@import "components/listas";
+@import "components/images";
+@import "components/texts";
+@import "layouts/flex";
+@import "normalize/reset";
+@import "views/queries";
+
+$mapa_de_colores: (
+    primario: black,
+secundario: rgba(22, 221, 92, 0.805),
+tercero: pink,
+cuarto:yellow,
+accordion-color: green
+
+);
+
+@mixin sizes ($width, $height) {
+    width: $width;
+    height: $height;
+    
+}
+.btn{
+    background-color: map-get( $mapa_de_colores,secundario );
+    @include sizes(180px,60px );
+};
+
+
+
