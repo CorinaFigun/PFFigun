@@ -30,7 +30,7 @@ nav ul {
 }
 
 .logos {
-  width: 60px;
+  width: 40px;
 }
 
 .bordesTitFotos {
@@ -78,7 +78,7 @@ nav ul {
   row-gap: 75px;
   text-shadow: 1px;
   line-height: 100px;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .fondoDanza {
@@ -100,10 +100,11 @@ nav ul {
 }
 
 .border {
-  border: 1px solid black;
+  border: 10px solid black;
   font-family: fantasy;
   background-color: bisque;
   text-align: center;
+  padding: 50px;
 }
 
 header {
@@ -257,7 +258,7 @@ h4 {
 
 .footer {
   align-content: center;
-  line-height: 300%;
+  line-height: 100px;
 }
 
 #parrafoBonito {
