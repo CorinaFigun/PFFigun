@@ -305,6 +305,7 @@ h4 {
     font-size: medium;
     color: azure;
     padding: auto;
+    width: auto;
   }
 }
 @media screen and (max-width: 760px) {
