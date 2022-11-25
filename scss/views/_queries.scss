@@ -1,32 +1,28 @@
-@media screen and (max-width:760px) {
-    h1 {font-size: 170%;
-        
+
+
+@media screen and (max-width: 760px) {
+    h1 {
+      margin: 5%;
+      font-size: medium;
     }
-    
-}
-
-@media screen and (max-width: 760) {
-    h1 { font-size: smaller;}
-}
-    
-
-
-@media screen and (max-width:760px) {
+  }
+  
+  @media screen and (max-width: 760px) {
     h2 {
-        font-size: medium;
-        color: azure;
+      margin: 5%;
+      font-size: medium;
+      color: azure;
     }
-
-}
-
-@media screen and (max-width:760px) {
+  }
+  
+  @media screen and (max-width: 760px) {
     h3 {
-        font-size: 160%;
-        color:greenyellow;
-        text-align:start;
+      margin: 5%;
+      font-size: 100%;
+      color: black;
+      text-align: start;
     }
-
-}
+  }
 
 @media screen and (max-width:760px) {
     #parrafoBonito {
