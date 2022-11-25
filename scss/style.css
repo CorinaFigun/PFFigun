@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 ul {
   list-style: none;
   color: chartreuse;
@@ -131,7 +137,7 @@ section#tiposDanzas {
 
 #grilla h1 {
   padding-top: 30px;
-  color: rgb(179, 224, 55);
+  color: rgb(24, 24, 23);
   width: 100%;
   font-weight: bold;
   font-family: fantasy;
@@ -272,6 +278,7 @@ h4 {
     font-size: small;
   }
 }
+
 #parrafoBonito2 {
   color: coral;
   background-color: rgb(243, 243, 205);
@@ -284,11 +291,7 @@ h4 {
     font-size: medium;
   }
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 @media screen and (max-width: 760px) {
   h1 {
@@ -301,6 +304,7 @@ h4 {
     margin: 5%;
     font-size: medium;
     color: azure;
+    padding: auto;
   }
 }
 @media screen and (max-width: 760px) {
@@ -329,6 +333,8 @@ h4 {
 @media screen and (max-width: 760px) {
   #titulosFotos {
     font-size: medium;
+    margin: 5%;
+    padding: auto;
   }
 }
 @media screen and (max-width: 760px) {
