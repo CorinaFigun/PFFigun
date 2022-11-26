@@ -99,6 +99,16 @@ nav ul {
   grid-template-columns: 3fr 1fr;
 }
 
+@media screen and (max-width: 760px) {
+  #grilla {
+    display: grid;
+    grid-template-areas: "header  header" "danzasIr danzasIr" "tiposDanzas tiposDanzas" "footer footer";
+    grid-template-rows: 25% 25% 25% 25%;
+    font-size: small;
+
+  }
+}
+
 .grid {
   -moz-column-gap: 250px;
        column-gap: 250px;
@@ -128,7 +138,7 @@ footer {
 footer {
   grid-area: footer;
   text-align: start;
-  font-family: fantasy;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: rgb(243, 212, 171);
   font-size: small;
 }
@@ -146,7 +156,7 @@ section#tiposDanzas {
 }
 
 #grilla h1 {
-  padding-top: 30px;
+  padding-top: 10px;
   color: rgb(24, 24, 23);
   width: 100%;
   font-weight: bold;
@@ -192,6 +202,8 @@ section#tiposDanzas {
   opacity: 30%;
   filter: blur(2px);
 }
+
+
 
 h1 {
   position: relative;
@@ -286,6 +298,7 @@ h4 {
 @media screen and (max-width: 760px) {
   #parrafoBonito {
     font-size: small;
+
   }
 }
 
@@ -316,6 +329,7 @@ h4 {
     color: azure;
     padding: auto;
     width: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 }
 @media screen and (max-width: 760px) {
@@ -323,6 +337,7 @@ h4 {
     margin: 5%;
     font-size: 100%;
     color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: start;
   }
 }
@@ -346,6 +361,7 @@ h4 {
     font-size: medium;
     margin: 5%;
     padding: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 }
 @media screen and (max-width: 760px) {
