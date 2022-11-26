@@ -121,8 +121,18 @@ footer {
   text-align: start;
   font-family: fantasy;
   background-color: rgb(243, 212, 171);
+  font-size: medium;
 }
 
+@media screen and (max-width: 760px) {
+footer {
+  grid-area: footer;
+  text-align: start;
+  font-family: fantasy;
+  background-color: rgb(243, 212, 171);
+  font-size: small;
+}
+}
 section#danzasIr {
   grid-area: danzasIr;
 }
