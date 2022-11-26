@@ -299,6 +299,7 @@ h4 {
 @media screen and (max-width: 760px) {
   #parrafoBonito {
     font-size: small;
+    margin: 5%;
 
   }
 }
@@ -313,6 +314,7 @@ h4 {
 @media screen and (max-width: 760px) {
   #parrafoBonito2 {
     font-size: medium;
+    margin: 5%;
   }
 }
 
@@ -346,11 +348,15 @@ h4 {
 @media screen and (max-width: 760px) {
   #parrafoBonito {
     font-size: small;
+    margin: 5%;
+
   }
 }
 @media screen and (max-width: 760px) {
   #parrafoBonito2 {
     font-size: small;
+    margin: 5%;
+
   }
 }
 @media screen and (max-width: 760px) {
@@ -383,6 +389,8 @@ h4 {
 @media screen and (max-width: 760px) {
   .miestilo {
     background-color: aquamarine;
+    margin: 5%;
+
   }
 }
 @media screen and (max-width: 760px) {
