@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 ul {
   list-style: none;
   color: chartreuse;
@@ -19,15 +25,7 @@ nav ul {
   display: flex;
 }
 
-#fotosSanPatricio {
-  align-content: center;
-  height: 200px;
-  margin: 19px;
-  justify-content: space-evenly;
-  justify-content: space-evenly;
-  align-content: center;
-  display: inline-flex;
-}
+
 
 .logos {
   width: 60px;
@@ -93,6 +91,16 @@ nav ul {
   grid-template-columns: 3fr 1fr;
 }
 
+@media screen and (max-width: 760px) {
+  #grilla {
+    display: grid;
+    grid-template-areas: "header  header" "danzasIr danzasIr" "tiposDanzas tiposDanzas" "footer footer";
+    grid-template-rows: 4% 58% 32% 6%;
+    font-size: small;
+
+  }
+}
+
 .grid {
   -moz-column-gap: 250px;
        column-gap: 250px;
@@ -115,8 +123,18 @@ footer {
   text-align: start;
   font-family: fantasy;
   background-color: rgb(243, 212, 171);
+  font-size: medium;
 }
 
+@media screen and (max-width: 760px) {
+footer {
+  grid-area: footer;
+  text-align: start;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(243, 212, 171);
+  font-size: small;
+}
+}
 section#danzasIr {
   grid-area: danzasIr;
 }
@@ -130,8 +148,8 @@ section#tiposDanzas {
 }
 
 #grilla h1 {
-  padding-top: 30px;
-  color: rgb(179, 224, 55);
+  padding-top: 10px;
+  color: rgb(24, 24, 23);
   width: 100%;
   font-weight: bold;
   font-family: fantasy;
@@ -164,6 +182,7 @@ section#tiposDanzas {
   justify-content: center;
 }
 
+
 .fondoDibus::before {
   content: "";
   background-image: url(../assets/logo1.jpeg);
@@ -176,6 +195,8 @@ section#tiposDanzas {
   opacity: 30%;
   filter: blur(2px);
 }
+
+
 
 h1 {
   position: relative;
@@ -270,8 +291,11 @@ h4 {
 @media screen and (max-width: 760px) {
   #parrafoBonito {
     font-size: small;
+    margin: 5%;
+
   }
 }
+
 #parrafoBonito2 {
   color: coral;
   background-color: rgb(243, 243, 205);
@@ -282,28 +306,16 @@ h4 {
 @media screen and (max-width: 760px) {
   #parrafoBonito2 {
     font-size: medium;
+    margin: 5%;
   }
 }
-#fotosSanPatricio {
-  align-content: center;
-  height: 300px;
-  margin: 19px;
-  justify-content: space-evenly;
-  justify-content: space-evenly;
-  align-content: center;
-  display: inline-flex;
-}
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 @media screen and (max-width: 760px) {
   h1 {
     margin: 5%;
     font-size: medium;
+    padding: 3%;
   }
 }
 @media screen and (max-width: 760px) {
@@ -311,6 +323,9 @@ h4 {
     margin: 5%;
     font-size: medium;
     color: azure;
+    padding: auto;
+    width: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 }
 @media screen and (max-width: 760px) {
@@ -318,17 +333,22 @@ h4 {
     margin: 5%;
     font-size: 100%;
     color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: start;
   }
 }
 @media screen and (max-width: 760px) {
   #parrafoBonito {
     font-size: small;
+    margin: 5%;
+
   }
 }
 @media screen and (max-width: 760px) {
   #parrafoBonito2 {
     font-size: small;
+    margin: 5%;
+
   }
 }
 @media screen and (max-width: 760px) {
@@ -339,6 +359,9 @@ h4 {
 @media screen and (max-width: 760px) {
   #titulosFotos {
     font-size: medium;
+    margin: 5%;
+    padding: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 }
 @media screen and (max-width: 760px) {
@@ -358,16 +381,16 @@ h4 {
 @media screen and (max-width: 760px) {
   .miestilo {
     background-color: aquamarine;
+    margin: 5%;
+
   }
 }
 @media screen and (max-width: 760px) {
   #fotosSanPatricio {
-    margin: 0;
-    padding: 0;
+    margin: 2px;
+    padding: 2px;
     height: 100px;
-    width: 50px;
-    margin: 19px;
-    justify-content: center;
+     justify-content: center;
     justify-items: auto;
   }
 }
