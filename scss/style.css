@@ -25,6 +25,14 @@ nav ul {
   display: flex;
 }
 
+@media screen and (max-width: 760px) {
+  nav ul {
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+}
+
+
 
 
 .logos {
@@ -103,7 +111,7 @@ nav ul {
 
 .grid {
   -moz-column-gap: 250px;
-       column-gap: 250px;
+  column-gap: 250px;
   row-gap: 25px;
 }
 
@@ -112,6 +120,13 @@ nav ul {
   font-family: fantasy;
   background-color: bisque;
   text-align: center;
+}
+
+@media screen and (max-width: 760px) {
+  .border {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
 }
 
 header {
@@ -127,14 +142,15 @@ footer {
 }
 
 @media screen and (max-width: 760px) {
-footer {
-  grid-area: footer;
-  text-align: start;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: rgb(243, 212, 171);
-  font-size: small;
+  footer {
+    grid-area: footer;
+    text-align: start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(243, 212, 171);
+    font-size: small;
+  }
 }
-}
+
 section#danzasIr {
   grid-area: danzasIr;
 }
@@ -157,6 +173,12 @@ section#tiposDanzas {
   align-content: center;
   align-items: center;
   text-align: center;
+}
+
+@media screen and (max-width: 760px) {
+  #grilla h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
 }
 
 #fichaTecnica {
@@ -316,8 +338,10 @@ h4 {
     margin: 5%;
     font-size: medium;
     padding: 3%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 }
+
 @media screen and (max-width: 760px) {
   h2 {
     margin: 5%;
@@ -328,6 +352,7 @@ h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 }
+
 @media screen and (max-width: 760px) {
   h3 {
     margin: 5%;
@@ -337,25 +362,31 @@ h4 {
     text-align: start;
   }
 }
+
 @media screen and (max-width: 760px) {
   #parrafoBonito {
     font-size: small;
     margin: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
   }
 }
+
 @media screen and (max-width: 760px) {
   #parrafoBonito2 {
     font-size: small;
     margin: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
   }
 }
+
 @media screen and (max-width: 760px) {
   .logos {
     width: 45px;
   }
 }
+
 @media screen and (max-width: 760px) {
   #titulosFotos {
     font-size: medium;
@@ -364,6 +395,7 @@ h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 }
+
 @media screen and (max-width: 760px) {
   #bordesNavegador {
     display: flex;
@@ -376,26 +408,33 @@ h4 {
     justify-content: left;
     justify-items: auto;
     flex-wrap: nowrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 }
+
 @media screen and (max-width: 760px) {
   .miestilo {
     background-color: aquamarine;
     margin: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
   }
 }
+
 @media screen and (max-width: 760px) {
   #fotosSanPatricio {
     margin: 2px;
     padding: 2px;
     height: 100px;
-     justify-content: center;
+    justify-content: center;
     justify-items: auto;
   }
 }
+
 .btn {
   background-color: rgba(22, 221, 92, 0.805);
   width: 180px;
   height: 60px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
