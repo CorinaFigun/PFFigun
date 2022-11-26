@@ -103,7 +103,7 @@ nav ul {
   #grilla {
     display: grid;
     grid-template-areas: "header  header" "danzasIr danzasIr" "tiposDanzas tiposDanzas" "footer footer";
-    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-rows: 4% 58% 32% 6%;
     font-size: small;
 
   }
@@ -189,6 +189,7 @@ section#tiposDanzas {
   align-items: center;
   justify-content: center;
 }
+
 
 .fondoDibus::before {
   content: "";
@@ -320,6 +321,7 @@ h4 {
   h1 {
     margin: 5%;
     font-size: medium;
+    padding: 3%;
   }
 }
 @media screen and (max-width: 760px) {
