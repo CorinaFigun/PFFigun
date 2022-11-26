@@ -212,6 +212,13 @@ section#tiposDanzas {
   justify-content: center;
 }
 
+@media screen and (max-width: 760px) {
+  .fondoDibus {
+    height: auto;
+    width: auto;
+  }
+}
+
 
 .fondoDibus::before {
   content: "";
